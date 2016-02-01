@@ -26,11 +26,11 @@ for i in range(0,times_to_collect):
     file.write('\nEpoch time: %s\n\n' % universal_time)
     for cmd in commands_to_run:
         c = os.popen('%s' % cmd)
-	      command = c.read()
-	      file.write(command)
-	      file.write(border1)
+	command = c.read()
+	file.write(command)
+	file.write(border1)
     if i < (times_to_collect - 1):
         time.sleep(time_interval)
-		    file.write(border)
+	file.write(border)
 
 file.close()
