@@ -1,0 +1,1 @@
+# command_output_collection_non_interactive
