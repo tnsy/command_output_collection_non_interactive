@@ -1,4 +1,4 @@
-# command_output_collection_non_interactive
+<>command_output_collection_non_interactive
 
 Run this with:
 
