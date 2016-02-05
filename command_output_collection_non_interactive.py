@@ -12,9 +12,9 @@ script, filename = argv
 border = '\n+++++++++++++++++++++++++++\n\n'
 border1 = '\n<><><><><><><><><><><><><><><><>\n\n'
 
-commands_to_run = ['tmsh show sys traffic'] #type in commands as a list: 'command_1', 'command_2'
-times_to_collect = int(6) #how many times this should be collected
-time_interval = int(600) #in seconds
+commands_to_run = [''] #type in commands as a list: 'command_1', 'command_2'
+times_to_collect = int() #how many times this should be collected
+time_interval = int() #in seconds
 hostname = socket.gethostname()
 
 file = open(filename, 'w')
